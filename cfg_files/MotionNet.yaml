@@ -1,0 +1,24 @@
+model_name: "MotionNet"
+data_dir: '~/SAMP_workspace/data/MotionNet'
+output_dir: '~/SAMP_workspace/exp/MotionNet'
+
+kl_w: 0.1
+batch_size: 32
+num_experts: 12
+L: 60
+C1: 30
+C2: 60
+
+num_actions: 5
+state_dim: 647
+z_dim: 64
+h_dim: 512
+h_dim_gate: 512
+
+log_interval: 5
+epochs: 100
+step: 1
+
+reduce_lr: True
+lr: 5e-5
+num_workers: 0

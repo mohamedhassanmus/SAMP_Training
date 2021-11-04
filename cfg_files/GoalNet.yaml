@@ -1,0 +1,17 @@
+model_name: "GoalNet"
+data_dir: '~/SAMP_workspace/data/GoalNet'
+output_dir: '~/SAMP_workspace/exp/GoalNet'
+
+batch_size: 32
+input_dim_goalnet: 6
+h_dim_goalnet: 512
+z_dim_goalnet: 3
+kl_w: 0.1
+
+log_interval: 5
+epochs: 100
+step: 1
+test: 1
+
+lr: 1e-3
+num_workers: 0

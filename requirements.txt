@@ -1,0 +1,14 @@
+numpy
+torch==1.7.1
+PyYAML
+pillow
+tqdm
+scipy
+times
+DateTime
+tensorboard
+ipdb
+configargparse
+threadpoolctl
+onnx
+onnxruntime
